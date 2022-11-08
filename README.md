@@ -16,6 +16,11 @@ cd tdd
 ls
 ````
 
+## How to run tests
+
+to run the tests, run the below command from the root directory of the repo
+`rspec .`
+
 ## Authors
 
 👤 **Ahmad Zaki Yousufi**
