@@ -4,8 +4,7 @@
 - Write Rspec unit tests with mocks.
 - Understand the TDD concept.
 
-### How to build the "OOP school library" app
-In this project you will implement a class with some methods, but you will do it by doing test-driven development (TDD). Remember that the idea is to write tests first and then the code.
+In this project -> implement a class with some methods, Do it by doing test-driven development (TDD). The idea is to write tests first and then the code.
 
 ## Getting Started
 
