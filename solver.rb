@@ -1,7 +1,17 @@
 class Solver
-  def factorial(num); end
+  def factorial(num)
+    raise ArgumentError, 'negative integers are not allowed' if num.negative?
 
-  def reverse(word); end
+    if [0, 1].include?(num)
+      1
+    else
+      num * factorial(num - 1)
+    end
+  end
+
+  def reverse(word)
+    word.reverse!
+  end
 
   def fizzbuzz(int)
     if int.modulo(3).zero? && int.modulo(5).zero?
